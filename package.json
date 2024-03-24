@@ -1,0 +1,32 @@
+{
+  "name": "accounts",
+  "version": "1.0.0",
+  "description": "the program for doing accounts of business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "accounts",
+    "business"
+  ],
+  "author": "Bari Kaneno",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.19",
+    "express": "^4.19.1",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^3.4.1"
+  }
+}
